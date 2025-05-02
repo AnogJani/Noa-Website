@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Metamorphous';
+    src: url('../assets/Metamorphous-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+  :root {
+    font-family: 'Metamorphous', sans-serif;
+    line-height: 1.5;
+  
+    color-scheme: light dark;
+    color: #b5976dff;
+    background-color: #596e86ff;
+    background-image: url(../assets/background.png);
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    margin: 0;
+    min-height: 100vh;
+  }
+  
+  #app{
+    display: flex;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }

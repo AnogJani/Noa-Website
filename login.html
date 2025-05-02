@@ -10,12 +10,17 @@
     <title>Pash</title>
   </head>
   <body>
-    <!--Main App-->
-    <div id="app">
-      <h1>Hello Noa!</h1>
+    <!--Password Screen-->
+    <div id="password-screen">
+      <img class="lock" src="/assets/lock.svg"/>
+      <img class="scrollmap" src="/assets/scrollmap1.svg"/>
+      <input id="password-input" type="password">
+      <img class="scrollmap back" src="/assets/scrollmap1.svg"/>
+      <button id="password-submit" type="button" onclick="handlePasswordSubmit()">Submit Password</button>
     </div>
 
     <!--Scripts-->
-    <script type="module" src="main.js"></script>
+    <script src="main.js"></script>
+    <script src="login.js"></script>
   </body>
 </html>

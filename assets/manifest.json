@@ -1,0 +1,22 @@
+{
+  "name": "Pash Pashuna",
+  "short_name": "Pash 💜",
+  "start_url": "/Noa-Website/",
+  "display": "standalone",
+  "background_color": "#f7f0ff",
+  "theme_color": "#c39bd3",
+  "orientation": "portrait",
+  "description": "💜",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
