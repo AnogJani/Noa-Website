@@ -4,7 +4,6 @@ if (localStorage.getItem("access_granted") === "true") {
 }
 
 function handlePasswordSubmit() {
-    console.log("Entered");
   
     const passwordInput = document.getElementById('password-input');
     const password = passwordInput.value.trim();
@@ -16,7 +15,7 @@ function handlePasswordSubmit() {
   
       window.location.href = "index.html"
     } else {
-      alert("Wrong password. Try again!");
+      window.location.href = "https://www.youtube.com/watch?v=gi_o8EVCFR8&ab_channel=NarutoXOtterGTR"
       passwordInput.value = "";
     }
 }
