@@ -1,12 +1,17 @@
 @font-face {
     font-family: 'Metamorphous';
-    src: url('../assets/Metamorphous-Regular.ttf');
+    src: url('../assets/fonts/Metamorphous-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../assets/fonts/Cormorant.ttf');
+}
   
   :root {
-    font-family: 'Metamorphous', sans-serif;
+    font-family: 'Cormorant', 'Assistant', 'Heebo', sans-serif;
     line-height: 1.5;
   
     color-scheme: light dark;
